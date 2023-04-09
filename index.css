@@ -33,9 +33,9 @@
 @import url(./blocks/intro/__list-item/intro__list-item.css);
 @import url(./blocks/span-accent/span-accent.css);
 
-/* photo-grid */
-@import url(./blocks/photo-grid/photo-grid.css);
-@import url();
+/* gallery */
+@import url(./blocks/gallery/gallery.css);
+@import url(./blocks/gallery/__item/gallery__item.css);
 @import url();
 @import url();
 @import url();
