@@ -10,8 +10,13 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0 18px 0 0;
+  transition: opacity .2s linear;
 }
 
 .header__link:last-child {
   margin: 0;
+}
+
+.header__link:hover {
+  opacity: .8;
 }
