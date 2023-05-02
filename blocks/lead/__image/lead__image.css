@@ -4,3 +4,33 @@
   margin: 64px 0 0;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    height: 580px;
+    margin: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    height: 480px;
+    border-radius: 0;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 40px 0 0;
+    height: 320px;
+  }
+}
+
+/* стили для широкого смартфона */
+@media screen and (max-width: 424px) {
+  .lead__image {
+    margin: 40px 0 0;
+    height: 200px;
+  }
+}
