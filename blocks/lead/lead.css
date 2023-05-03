@@ -6,7 +6,10 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead {}
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
