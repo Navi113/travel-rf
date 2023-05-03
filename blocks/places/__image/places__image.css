@@ -1,5 +1,6 @@
 .places__image {
   max-width: 460px;
+  width: 100%;
   grid-area: img;
 }
 
@@ -8,3 +9,9 @@
     max-width: 440px;
   }
 }
+
+/* @media screen and (max-width: 767px) {
+  .places__image {
+    max-width: 320px;
+  }
+} */
