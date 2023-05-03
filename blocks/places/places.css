@@ -1,25 +1,26 @@
-.places {
-  padding: 92px 148px;
+.placess {
+  max-width: 984px;
+  margin: 0 auto  ;
+  padding: 92px 0;
   display: grid;
   gap: 80px;
 }
 
 @media screen and (max-width: 1279px) {
-  .places {
+  .placess {
     max-width: 928px;
-    padding: 92px 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .places {
+  .placess {
     padding: 88px 24px 90px;
-    gap: 73px;
+    gap: 72px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places {
+  .placess {
     padding: 64px 0 66px;
     gap: 50px;
   }
